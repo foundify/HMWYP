@@ -223,8 +223,8 @@ button span {
   }
 }
 .badge-light {
-  background: rgba(0, 0, 0, 0.05);
-  color: #aaaaaa;
+  color: #bfbfbf;
+  background: #e6e6e6;
 }
 
 .badge-primary{
