@@ -1,59 +1,20 @@
         function myFunction1() {
-          var x = document.getElementById("submission1");
-          var y = document.getElementById("results1");
-          if (x.style.display === "none") {
-            x.style.display = "none";
-            y.style.display = "block";
-          } else {
-            x.style.display = "none";
-            y.style.display = "block";
-          }
+            $('#submission1').hide(1000);
+            $('#results1').delay(1000).show(1000);
         }
-
         function myFunction2() {
-          var x = document.getElementById("submission2");
-          var y = document.getElementById("results2");
-          if (x.style.display === "none") {
-            x.style.display = "none";
-            y.style.display = "block";
-          } else {
-            x.style.display = "none";
-            y.style.display = "block";
-          }
+            $('#submission2').hide(1000);
+            $('#results2').delay(1000).show(1000);
         }
-
         function myFunction3() {
-          var x = document.getElementById("submission3");
-          var y = document.getElementById("results3");
-          if (x.style.display === "none") {
-            x.style.display = "none";
-            y.style.display = "block";
-          } else {
-            x.style.display = "none";
-            y.style.display = "block";
-          }
+            $('#submission3').hide(1000);
+            $('#results3').delay(1000).show(1000);
         }
-
         function myFunction4() {
-          var x = document.getElementById("submission4");
-          var y = document.getElementById("results4");
-          if (x.style.display === "none") {
-            x.style.display = "none";
-            y.style.display = "block";
-          } else {
-            x.style.display = "none";
-            y.style.display = "block";
-          }
+            $('#submission4').hide(1000);
+            $('#results4').delay(1000).show(1000);
         }
-
         function myFunction5() {
-          var x = document.getElementById("submission5");
-          var y = document.getElementById("results5");
-          if (x.style.display === "none") {
-            x.style.display = "none";
-            y.style.display = "block";
-          } else {
-            x.style.display = "none";
-            y.style.display = "block";
-          }
+            $('#submission5').hide(1000);
+            $('#results5').delay(1000).show(1000);
         }

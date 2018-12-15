@@ -413,9 +413,6 @@ input[type="radio"]:disabled + label {
 .btn .label b {
   font-weight: 600 !important;
 }
-div[id*='results'] {
-  display: none;
-}
 .page-link {
   border-radius: 5px;
   padding: 5px 10px !important;
@@ -482,3 +479,10 @@ div[id*='results'] {
     .fade-in {
       animation: fadeIn 1s ease forwards;
     }
+
+div[id*='results'] {
+  display: none;
+}
+div[id*='submission'] {
+  display: block;
+}
