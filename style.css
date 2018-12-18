@@ -29,21 +29,22 @@ h5 {
   border: 0 !important;
   color: #507c36;
   background: #e3efdc;
+  padding: 6px !important;
 }
 .form-control:focus {
   outline: none !important;
   box-shadow: 0px 0px 0px 0px #eeeeee;
 }
-button, button:focus {
+.submit-btn, .submit-btn:focus {
   border: #eeeeee !important;
   color: #595959 !important;
   background: #eeeeee !important;
   transition: background ease 0.5s !important;
 }
-button:hover {
+.submit-btn:hover {
   background: #dddddd !important;
 }
-button span {
+.submit-btn span {
   vertical-align: middle;
 }
 .ads, .ads::placeholder {
@@ -244,6 +245,7 @@ button span {
  
 /* Progress Bar */
 .progress {
+  margin-top: -1px;
   position:relative;
   height:65px;
   box-shadow: none !important;
@@ -480,9 +482,25 @@ input[type="radio"]:disabled + label {
       animation: fadeIn 1s ease forwards;
     }
 
-div[id*='results'] {
+#results1,#results2,#results3,#results4,#results5{
   display: none;
 }
-div[id*='submission'] {
+#submission1,#submission2,#submission3,#submission4,#submission5{
   display: block;
+}
+
+.form-control::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+.form-control:-ms-input-placeholder {  
+  text-align: center; 
 }
